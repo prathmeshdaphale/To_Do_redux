@@ -1,0 +1,73 @@
+.header {
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  background-color: burlywood;
+  border: 2px solid black;
+  box-shadow: 5px 5px #c47575;
+}
+.list {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: pink;
+}
+* {
+  background-color: rgb(144, 172, 151);
+}
+.top {
+  margin-top: 20px;
+  padding: 10px;
+  border: 3px solid rgb(64, 78, 64);
+  background-color: rgb(199, 184, 186);
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.button {
+  text-align: center;
+  align-items: center;
+  color: blue;
+  background-color: orange;
+  font-size: 14px;
+}
+.button:hover {
+  background-color: #2b5b9b;
+  color: white;
+}
+.task {
+  border: 5px double rgb(116, 116, 170);
+  background-color: rgb(233, 255, 172);
+}
+.buton {
+  color: black;
+  background-color: rgb(207, 52, 52);
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.buton:hover {
+  color: black;
+  background-color: white;
+}
+.text::before {
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  border: 2px rgb(156, 43, 43);
+  margin-top: 10px;
+  padding-top: 5px;
+}
+.disc::before {
+  text-align: center;
+  align-items: center;
+  border: 2px gray;
+}
+.date::before {
+  text-align: center;
+  align-items: center;
+  border: 2px gray;
+}
